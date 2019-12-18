@@ -104,7 +104,6 @@ print('Number of faces detected:', len(faces))
 
 image_with_detections = np.copy(image)
 
-
 size = 60
 kernel = np.ones((size, size),np.float32)/(size*size)
 # Get the bounding box for each detected face
